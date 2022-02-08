@@ -1,1 +1,19 @@
 First Git File
+Command to Execute for pushing the file from Local repo to Central Repo
+#yum install git -y
+#git --version
+#which git
+#git config --global user.name "Rajesh"
+#git config --global user.email " rnabojja3@gmail.com"
+
+#git init
+then create a file or check the file in workingSpace
+eg mkdir firstfile
+#git status
+#git add .
+#git commmit -m "<Filename>"
+#git status
+#git log
+#git show <commit ID>
+#git remote addorigin <git url>
+git push -u origin master (then username and password)
