@@ -1,19 +1,38 @@
 First Git File
-Command to Execute for pushing the file from Local repo to Central Repo
-#yum install git -y
-#git --version
-#which git
-#git config --global user.name "Rajesh"
-#git config --global user.email " rnabojja3@gmail.com"
 
-#git init
+_______Mumbai________
+#Command to Execute for pushing the file from Local repo(Mumbai)to Central Repo
+yum install git -y
+git --version
+which git
+git config --global user.name "Rajesh"
+git config --global user.email " rnabojja3@gmail.com"
+git init
 then create a file or check the file in workingSpace
 eg mkdir firstfile
-#git status
-#git add .
-#git commmit -m "<Filename>"
-#git status
-#git log
-#git show <commit ID>
-#git remote addorigin <git url>
+git status
+git add .
+git commmit -m "commit from Mumbai"
+git status
+git log
+git show <commit ID>
+git remote addorigin <git url>
 git push -u origin master (then username and password)
+
+_________Singapore________
+#Command to execute for pulling the file from Central repo-Making chnages and pushing back the changes in the central repo
+yum git intall -y
+mkdir <dir name>
+git init
+git remote add origin <github URL>
+git pull origin master 
+git status
+git log
+git show <commit id>
+git status
+git add .
+git commit -m "Commit from Singapore ec2"
+git status
+git log
+git show
+git push origin master
